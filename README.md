@@ -2,7 +2,9 @@
 
 This project involves building an object detection pipeline using YOLO and other deep learning models, processing real-time video feeds or video clips for object detection, then using the trajectories of detected objects, to perform trajectory based anomaly detection.
 
-Currently the plan is rule-based systems but as the project evolves, we are going to use machine learning techniques in supervised and unsupervised learning.
+Currently the plan is rule-based systems at the trajectory based anomaly detection step but as the project evolves, we are going to use machine learning techniques in supervised and unsupervised learning.
+
+Libraries are used for the object detection, and obtaining the trajectories.
 
 ## Setup Instructions
 1. Clone the repo and navigate into the directory:
