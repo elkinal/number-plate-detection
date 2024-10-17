@@ -19,10 +19,12 @@ python3 -m venv venv
 
 3. Install dependencies:
 
- pip install -r requirements.txt
+``` pip install -r requirements.txt ```
 
 
 4. Run object detection (example script coming soon).
 
+
+``` python object_detection.py ```
 ## License
 MIT License
