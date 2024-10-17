@@ -7,6 +7,9 @@ Currently the plan is rule-based systems at the trajectory based anomaly detecti
 Libraries are used for the object detection, and obtaining the trajectories.
 
 ## Setup Instructions
+
+This project is tested to be working with Python 3.11.5
+
 1. Clone the repo and navigate into the directory:
 
 
