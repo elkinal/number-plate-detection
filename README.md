@@ -27,6 +27,6 @@ Then,
 4. Run object detection (example script coming soon).
 
 
-``` python object_detection.py ```
+``` python scripts/object_detection.py ```
 ## License
 MIT License
