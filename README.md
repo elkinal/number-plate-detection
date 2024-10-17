@@ -12,7 +12,8 @@ Libraries are used for the object detection, and obtaining the trajectories.
 
 2. Set up the Python environment:
 
-python3 -m venv venv
+```python3 -m venv venv ```
+Then, 
 ``` source venv/bin/activate  # Linux/Mac ```
 
 ``` .\venv\Scripts\activate   # Windows ```
