@@ -35,12 +35,10 @@ source venv/bin/activate  # Linux/Mac
 ``` pip install -r requirements.txt ```
 
 
-4. Run object detection (example script coming soon).
+4. Run what we have so far (example script coming soon).
 
+python main.py
 
-<<<<<<< Updated upstream
-``` python scripts/object_detection.py ```
-=======
 ## Notes
 If you get an SSL certificate verify error,
 You may need to manually install SSL certificates in order to ensure Python can validate them.
