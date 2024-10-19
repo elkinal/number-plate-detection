@@ -12,15 +12,23 @@ This project is tested to be working with Python 3.11.5
 
 1. Clone the repo and navigate into the directory:
 
+git clone https://github.com/yourusername/AI-Practicum-Object-Detection.git
+cd AI-Practicum-Object-Detection
 
 2. Set up the Python environment:
 
+<<<<<<< Updated upstream
 ```python3 -m venv venv ```
 Then, 
 
 ``` source venv/bin/activate  # Linux/Mac ```
 
 ``` .\venv\Scripts\activate   # Windows ```
+=======
+python3 -m venv venv
+source venv/bin/activate  # Linux/Mac
+.\venv\Scripts\activate   # Windows
+>>>>>>> Stashed changes
 
 3. Install dependencies:
 
@@ -30,6 +38,20 @@ Then,
 4. Run object detection (example script coming soon).
 
 
+<<<<<<< Updated upstream
 ``` python scripts/object_detection.py ```
+=======
+## Notes
+If you get an SSL certificate verify error,
+You may need to manually install SSL certificates in order to ensure Python can validate them.
+
+Open a terminal and run 
+/Applications/Python\ 3.x/Install\ Certificates.command
+
+Replace .x with the specific Python version. If your python version is 
+3.11.5, then the command would be 
+/Applications/Python\ 3.11/Install\ Certificates.command
+
+>>>>>>> Stashed changes
 ## License
 MIT License

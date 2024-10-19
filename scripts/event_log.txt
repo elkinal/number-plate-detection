@@ -1,0 +1,680 @@
+[2024-10-17 19:52:03] Loitering detected for person 1
+[2024-10-17 19:52:03] Loitering detected for person 3
+[2024-10-17 19:52:03] Loitering detected for person 4
+[2024-10-17 19:52:03] Loitering detected for person 7
+[2024-10-17 19:52:03] Loitering detected for person 8
+[2024-10-17 19:52:03] Loitering detected for person 10
+[2024-10-17 19:52:03] Loitering detected for person 11
+[2024-10-17 19:52:03] Loitering detected for person 13
+[2024-10-17 19:52:03] Loitering detected for person 14
+[2024-10-17 19:52:03] Loitering detected for person 15
+[2024-10-17 19:52:03] Loitering detected for person 18
+[2024-10-17 19:52:05] Loitering detected for person 3
+[2024-10-17 19:52:05] Loitering detected for person 4
+[2024-10-17 19:52:05] Loitering detected for person 7
+[2024-10-17 19:52:05] Loitering detected for person 10
+[2024-10-17 19:52:05] Loitering detected for person 11
+[2024-10-17 19:52:05] Loitering detected for person 13
+[2024-10-17 19:52:05] Loitering detected for person 14
+[2024-10-17 19:52:05] Loitering detected for person 15
+[2024-10-17 19:52:05] Loitering detected for person 18
+[2024-10-17 19:52:07] Loitering detected for person 3
+[2024-10-17 19:52:07] Loitering detected for person 4
+[2024-10-17 19:52:07] Loitering detected for person 7
+[2024-10-17 19:52:07] Loitering detected for person 10
+[2024-10-17 19:52:07] Loitering detected for person 11
+[2024-10-17 19:52:07] Loitering detected for person 13
+[2024-10-17 19:52:07] Loitering detected for person 14
+[2024-10-17 19:52:07] Loitering detected for person 15
+[2024-10-17 19:52:09] Loitering detected for person 3
+[2024-10-17 19:52:09] Loitering detected for person 7
+[2024-10-17 19:52:09] Loitering detected for person 10
+[2024-10-17 19:52:09] Loitering detected for person 11
+[2024-10-17 19:52:09] Loitering detected for person 13
+[2024-10-17 19:52:09] Loitering detected for person 14
+[2024-10-17 19:52:09] Loitering detected for person 15
+[2024-10-17 19:52:09] Loitering detected for person 18
+[2024-10-17 19:52:09] Loitering detected for person 20
+[2024-10-17 19:52:10] Loitering detected for person 3
+[2024-10-17 19:52:10] Loitering detected for person 7
+[2024-10-17 19:52:10] Loitering detected for person 10
+[2024-10-17 19:52:10] Loitering detected for person 11
+[2024-10-17 19:52:10] Loitering detected for person 13
+[2024-10-17 19:52:10] Loitering detected for person 14
+[2024-10-17 19:52:10] Loitering detected for person 15
+[2024-10-17 19:52:10] Loitering detected for person 18
+[2024-10-17 19:52:10] Loitering detected for person 20
+[2024-10-17 19:52:12] Loitering detected for person 3
+[2024-10-17 19:52:12] Loitering detected for person 6
+[2024-10-17 19:52:12] Loitering detected for person 7
+[2024-10-17 19:52:12] Loitering detected for person 9
+[2024-10-17 19:52:12] Loitering detected for person 10
+[2024-10-17 19:52:12] Loitering detected for person 11
+[2024-10-17 19:52:12] Loitering detected for person 13
+[2024-10-17 19:52:12] Loitering detected for person 14
+[2024-10-17 19:52:12] Loitering detected for person 15
+[2024-10-17 19:52:12] Loitering detected for person 20
+[2024-10-17 19:52:14] Loitering detected for person 3
+[2024-10-17 19:52:14] Loitering detected for person 6
+[2024-10-17 19:52:14] Loitering detected for person 7
+[2024-10-17 19:52:14] Loitering detected for person 10
+[2024-10-17 19:52:14] Loitering detected for person 11
+[2024-10-17 19:52:14] Loitering detected for person 13
+[2024-10-17 19:52:14] Loitering detected for person 14
+[2024-10-17 19:52:14] Loitering detected for person 15
+[2024-10-17 19:52:14] Loitering detected for person 20
+[2024-10-17 19:52:16] Loitering detected for person 3
+[2024-10-17 19:52:16] Loitering detected for person 7
+[2024-10-17 19:52:16] Loitering detected for person 8
+[2024-10-17 19:52:16] Loitering detected for person 11
+[2024-10-17 19:52:16] Loitering detected for person 14
+[2024-10-17 19:52:16] Loitering detected for person 15
+[2024-10-17 19:52:18] Loitering detected for person 3
+[2024-10-17 19:52:18] Loitering detected for person 8
+[2024-10-17 19:52:18] Loitering detected for person 11
+[2024-10-17 19:52:18] Loitering detected for person 14
+[2024-10-17 19:52:18] Loitering detected for person 15
+[2024-10-17 19:52:18] Loitering detected for person 24
+[2024-10-17 19:52:20] Loitering detected for person 3
+[2024-10-17 19:52:20] Loitering detected for person 8
+[2024-10-17 19:52:20] Loitering detected for person 11
+[2024-10-17 19:52:20] Loitering detected for person 14
+[2024-10-17 19:52:20] Loitering detected for person 15
+[2024-10-17 19:52:20] Loitering detected for person 24
+[2024-10-17 19:52:20] Loitering detected for person 25
+[2024-10-17 19:52:22] Loitering detected for person 3
+[2024-10-17 19:52:22] Loitering detected for person 11
+[2024-10-17 19:52:22] Loitering detected for person 14
+[2024-10-17 19:52:22] Loitering detected for person 15
+[2024-10-17 19:52:22] Loitering detected for person 24
+[2024-10-17 19:52:22] Loitering detected for person 25
+[2024-10-17 19:52:23] Loitering detected for person 3
+[2024-10-17 19:52:23] Loitering detected for person 11
+[2024-10-17 19:52:23] Loitering detected for person 14
+[2024-10-17 19:52:23] Loitering detected for person 15
+[2024-10-17 19:52:23] Loitering detected for person 18
+[2024-10-17 19:52:23] Loitering detected for person 24
+[2024-10-17 19:52:23] Loitering detected for person 25
+[2024-10-17 19:52:23] Loitering detected for person 28
+[2024-10-17 19:52:25] Loitering detected for person 1
+[2024-10-17 19:52:25] Loitering detected for person 3
+[2024-10-17 19:52:25] Loitering detected for person 11
+[2024-10-17 19:52:25] Loitering detected for person 14
+[2024-10-17 19:52:25] Loitering detected for person 15
+[2024-10-17 19:52:25] Loitering detected for person 18
+[2024-10-17 19:52:25] Loitering detected for person 22
+[2024-10-17 19:52:25] Loitering detected for person 24
+[2024-10-17 19:52:25] Loitering detected for person 25
+[2024-10-17 19:52:25] Loitering detected for person 28
+[2024-10-17 19:52:27] Loitering detected for person 3
+[2024-10-17 19:52:27] Loitering detected for person 6
+[2024-10-17 19:52:27] Loitering detected for person 11
+[2024-10-17 19:52:27] Loitering detected for person 13
+[2024-10-17 19:52:27] Loitering detected for person 14
+[2024-10-17 19:52:27] Loitering detected for person 15
+[2024-10-17 19:52:27] Loitering detected for person 18
+[2024-10-17 19:52:27] Loitering detected for person 22
+[2024-10-17 19:52:27] Loitering detected for person 24
+[2024-10-17 19:52:27] Loitering detected for person 28
+[2024-10-17 19:52:28] Loitering detected for person 3
+[2024-10-17 19:52:28] Loitering detected for person 6
+[2024-10-17 19:52:28] Loitering detected for person 7
+[2024-10-17 19:52:28] Loitering detected for person 11
+[2024-10-17 19:52:28] Loitering detected for person 13
+[2024-10-17 19:52:28] Loitering detected for person 14
+[2024-10-17 19:52:28] Loitering detected for person 15
+[2024-10-17 19:52:28] Loitering detected for person 18
+[2024-10-17 19:52:28] Loitering detected for person 22
+[2024-10-17 19:52:28] Loitering detected for person 24
+[2024-10-17 19:52:28] Loitering detected for person 28
+[2024-10-17 19:52:28] Loitering detected for person 31
+[2024-10-17 19:52:30] Loitering detected for person 3
+[2024-10-17 19:52:30] Loitering detected for person 4
+[2024-10-17 19:52:30] Loitering detected for person 11
+[2024-10-17 19:52:30] Loitering detected for person 13
+[2024-10-17 19:52:30] Loitering detected for person 14
+[2024-10-17 19:52:30] Loitering detected for person 15
+[2024-10-17 19:52:30] Loitering detected for person 18
+[2024-10-17 19:52:30] Loitering detected for person 24
+[2024-10-17 19:52:30] Loitering detected for person 28
+[2024-10-17 19:52:30] Loitering detected for person 31
+[2024-10-17 19:52:32] Loitering detected for person 4
+[2024-10-17 19:52:32] Loitering detected for person 11
+[2024-10-17 19:52:32] Loitering detected for person 13
+[2024-10-17 19:52:32] Loitering detected for person 14
+[2024-10-17 19:52:32] Loitering detected for person 15
+[2024-10-17 19:52:32] Loitering detected for person 24
+[2024-10-17 19:52:32] Loitering detected for person 28
+[2024-10-17 19:52:33] Loitering detected for person 4
+[2024-10-17 19:52:33] Loitering detected for person 13
+[2024-10-17 19:52:33] Loitering detected for person 14
+[2024-10-17 19:52:33] Loitering detected for person 15
+[2024-10-17 19:52:33] Loitering detected for person 24
+[2024-10-17 19:52:33] Loitering detected for person 28
+[2024-10-17 19:52:35] Loitering detected for person 13
+[2024-10-17 19:52:35] Loitering detected for person 14
+[2024-10-17 19:52:35] Loitering detected for person 15
+[2024-10-17 19:52:35] Loitering detected for person 24
+[2024-10-17 19:52:35] Loitering detected for person 28
+[2024-10-17 19:52:37] Loitering detected for person 13
+[2024-10-17 19:52:37] Loitering detected for person 14
+[2024-10-17 19:52:37] Loitering detected for person 15
+[2024-10-17 19:52:37] Loitering detected for person 24
+[2024-10-17 19:52:37] Loitering detected for person 28
+[2024-10-17 19:52:38] Loitering detected for person 13
+[2024-10-17 19:52:38] Loitering detected for person 14
+[2024-10-17 19:52:38] Loitering detected for person 15
+[2024-10-17 19:52:38] Loitering detected for person 24
+[2024-10-17 19:52:38] Loitering detected for person 28
+[2024-10-17 19:52:40] Loitering detected for person 6
+[2024-10-17 19:52:40] Loitering detected for person 7
+[2024-10-17 19:52:40] Loitering detected for person 13
+[2024-10-17 19:52:40] Loitering detected for person 14
+[2024-10-17 19:52:40] Loitering detected for person 15
+[2024-10-17 19:52:40] Loitering detected for person 24
+[2024-10-17 19:52:40] Loitering detected for person 28
+[2024-10-17 19:52:42] Loitering detected for person 1
+[2024-10-17 19:52:42] Loitering detected for person 3
+[2024-10-17 19:52:42] Loitering detected for person 6
+[2024-10-17 19:52:42] Loitering detected for person 7
+[2024-10-17 19:52:42] Loitering detected for person 8
+[2024-10-17 19:52:42] Loitering detected for person 13
+[2024-10-17 19:52:42] Loitering detected for person 14
+[2024-10-17 19:52:42] Loitering detected for person 15
+[2024-10-17 19:52:42] Loitering detected for person 24
+[2024-10-17 19:52:42] Loitering detected for person 28
+[2024-10-17 19:52:42] Loitering detected for person 31
+[2024-10-17 19:52:44] Loitering detected for person 1
+[2024-10-17 19:52:44] Loitering detected for person 3
+[2024-10-17 19:52:44] Loitering detected for person 7
+[2024-10-17 19:52:44] Loitering detected for person 11
+[2024-10-17 19:52:44] Loitering detected for person 13
+[2024-10-17 19:52:44] Loitering detected for person 14
+[2024-10-17 19:52:44] Loitering detected for person 15
+[2024-10-17 19:52:44] Loitering detected for person 24
+[2024-10-17 19:52:44] Loitering detected for person 28
+[2024-10-17 19:52:44] Loitering detected for person 31
+[2024-10-17 19:52:46] Loitering detected for person 3
+[2024-10-17 19:52:46] Loitering detected for person 4
+[2024-10-17 19:52:46] Loitering detected for person 11
+[2024-10-17 19:52:46] Loitering detected for person 14
+[2024-10-17 19:52:46] Loitering detected for person 15
+[2024-10-17 19:52:46] Loitering detected for person 24
+[2024-10-17 19:52:46] Loitering detected for person 28
+[2024-10-17 19:52:46] Loitering detected for person 40
+[2024-10-17 19:52:48] Loitering detected for person 3
+[2024-10-17 19:52:48] Loitering detected for person 11
+[2024-10-17 19:52:48] Loitering detected for person 14
+[2024-10-17 19:52:48] Loitering detected for person 15
+[2024-10-17 19:52:48] Loitering detected for person 24
+[2024-10-17 19:52:48] Loitering detected for person 25
+[2024-10-17 19:52:48] Loitering detected for person 40
+[2024-10-17 19:52:50] Loitering detected for person 3
+[2024-10-17 19:52:50] Loitering detected for person 11
+[2024-10-17 19:52:50] Loitering detected for person 14
+[2024-10-17 19:52:50] Loitering detected for person 15
+[2024-10-17 19:52:50] Loitering detected for person 24
+[2024-10-17 19:52:50] Loitering detected for person 25
+[2024-10-17 19:52:50] Loitering detected for person 40
+[2024-10-17 19:52:53] Loitering detected for person 3
+[2024-10-17 19:52:53] Loitering detected for person 11
+[2024-10-17 19:52:53] Loitering detected for person 12
+[2024-10-17 19:52:53] Loitering detected for person 14
+[2024-10-17 19:52:53] Loitering detected for person 24
+[2024-10-17 19:52:53] Loitering detected for person 40
+[2024-10-17 19:52:55] Loitering detected for person 3
+[2024-10-17 19:52:55] Loitering detected for person 6
+[2024-10-17 19:52:55] Loitering detected for person 8
+[2024-10-17 19:52:55] Loitering detected for person 11
+[2024-10-17 19:52:55] Loitering detected for person 14
+[2024-10-17 19:52:55] Loitering detected for person 24
+[2024-10-17 19:52:55] Loitering detected for person 40
+[2024-10-17 19:52:57] Loitering detected for person 3
+[2024-10-17 19:52:57] Loitering detected for person 6
+[2024-10-17 19:52:57] Loitering detected for person 7
+[2024-10-17 19:52:57] Loitering detected for person 8
+[2024-10-17 19:52:57] Loitering detected for person 11
+[2024-10-17 19:52:57] Loitering detected for person 13
+[2024-10-17 19:52:57] Loitering detected for person 14
+[2024-10-17 19:52:57] Loitering detected for person 24
+[2024-10-17 19:52:57] Loitering detected for person 31
+[2024-10-17 19:52:57] Loitering detected for person 40
+[2024-10-17 19:52:57] Loitering detected for person 47
+[2024-10-17 19:52:59] Loitering detected for person 3
+[2024-10-17 19:52:59] Loitering detected for person 4
+[2024-10-17 19:52:59] Loitering detected for person 6
+[2024-10-17 19:52:59] Loitering detected for person 7
+[2024-10-17 19:52:59] Loitering detected for person 11
+[2024-10-17 19:52:59] Loitering detected for person 13
+[2024-10-17 19:52:59] Loitering detected for person 14
+[2024-10-17 19:52:59] Loitering detected for person 22
+[2024-10-17 19:52:59] Loitering detected for person 24
+[2024-10-17 19:52:59] Loitering detected for person 28
+[2024-10-17 19:52:59] Loitering detected for person 31
+[2024-10-17 19:52:59] Loitering detected for person 40
+[2024-10-17 19:52:59] Loitering detected for person 47
+[2024-10-17 19:52:59] Loitering detected for person 49
+[2024-10-17 19:53:01] Loitering detected for person 3
+[2024-10-17 19:53:01] Loitering detected for person 4
+[2024-10-17 19:53:01] Loitering detected for person 7
+[2024-10-17 19:53:01] Loitering detected for person 11
+[2024-10-17 19:53:01] Loitering detected for person 13
+[2024-10-17 19:53:01] Loitering detected for person 14
+[2024-10-17 19:53:01] Loitering detected for person 16
+[2024-10-17 19:53:01] Loitering detected for person 22
+[2024-10-17 19:53:01] Loitering detected for person 24
+[2024-10-17 19:53:01] Loitering detected for person 28
+[2024-10-17 19:53:01] Loitering detected for person 31
+[2024-10-17 19:53:01] Loitering detected for person 40
+[2024-10-17 19:53:01] Loitering detected for person 47
+[2024-10-17 19:53:01] Loitering detected for person 49
+[2024-10-17 19:53:03] Loitering detected for person 3
+[2024-10-17 19:53:03] Loitering detected for person 4
+[2024-10-17 19:53:03] Loitering detected for person 7
+[2024-10-17 19:53:03] Loitering detected for person 11
+[2024-10-17 19:53:03] Loitering detected for person 13
+[2024-10-17 19:53:03] Loitering detected for person 14
+[2024-10-17 19:53:03] Loitering detected for person 24
+[2024-10-17 19:53:03] Loitering detected for person 28
+[2024-10-17 19:53:03] Loitering detected for person 40
+[2024-10-17 19:53:03] Loitering detected for person 47
+[2024-10-17 19:53:03] Loitering detected for person 49
+[2024-10-17 19:53:04] Loitering detected for person 3
+[2024-10-17 19:53:04] Loitering detected for person 11
+[2024-10-17 19:53:04] Loitering detected for person 13
+[2024-10-17 19:53:04] Loitering detected for person 14
+[2024-10-17 19:53:04] Loitering detected for person 24
+[2024-10-17 19:53:04] Loitering detected for person 28
+[2024-10-17 19:53:04] Loitering detected for person 47
+[2024-10-17 19:53:04] Loitering detected for person 49
+[2024-10-17 19:53:06] Loitering detected for person 3
+[2024-10-17 19:53:06] Loitering detected for person 11
+[2024-10-17 19:53:06] Loitering detected for person 13
+[2024-10-17 19:53:06] Loitering detected for person 14
+[2024-10-17 19:53:06] Loitering detected for person 24
+[2024-10-17 19:53:06] Loitering detected for person 28
+[2024-10-17 19:53:06] Loitering detected for person 47
+[2024-10-17 19:53:06] Loitering detected for person 49
+[2024-10-17 19:53:06] Loitering detected for person 52
+[2024-10-17 19:53:08] Loitering detected for person 3
+[2024-10-17 19:53:08] Loitering detected for person 11
+[2024-10-17 19:53:08] Loitering detected for person 12
+[2024-10-17 19:53:08] Loitering detected for person 13
+[2024-10-17 19:53:08] Loitering detected for person 14
+[2024-10-17 19:53:08] Loitering detected for person 24
+[2024-10-17 19:53:08] Loitering detected for person 28
+[2024-10-17 19:53:08] Loitering detected for person 47
+[2024-10-17 19:53:08] Loitering detected for person 49
+[2024-10-17 19:53:10] Loitering detected for person 3
+[2024-10-17 19:53:10] Loitering detected for person 11
+[2024-10-17 19:53:10] Loitering detected for person 12
+[2024-10-17 19:53:10] Loitering detected for person 13
+[2024-10-17 19:53:10] Loitering detected for person 14
+[2024-10-17 19:53:10] Loitering detected for person 24
+[2024-10-17 19:53:10] Loitering detected for person 28
+[2024-10-17 19:53:10] Loitering detected for person 47
+[2024-10-17 19:53:10] Loitering detected for person 49
+[2024-10-17 19:53:12] Loitering detected for person 3
+[2024-10-17 19:53:12] Loitering detected for person 11
+[2024-10-17 19:53:12] Loitering detected for person 12
+[2024-10-17 19:53:12] Loitering detected for person 13
+[2024-10-17 19:53:12] Loitering detected for person 14
+[2024-10-17 19:53:12] Loitering detected for person 24
+[2024-10-17 19:53:12] Loitering detected for person 28
+[2024-10-17 19:53:12] Loitering detected for person 47
+[2024-10-17 19:53:14] Loitering detected for person 3
+[2024-10-17 19:53:14] Loitering detected for person 12
+[2024-10-17 19:53:14] Loitering detected for person 13
+[2024-10-17 19:53:14] Loitering detected for person 14
+[2024-10-17 19:53:14] Loitering detected for person 22
+[2024-10-17 19:53:14] Loitering detected for person 24
+[2024-10-17 19:53:16] Loitering detected for person 1
+[2024-10-17 19:53:16] Loitering detected for person 3
+[2024-10-17 19:53:16] Loitering detected for person 4
+[2024-10-17 19:53:16] Loitering detected for person 7
+[2024-10-17 19:53:16] Loitering detected for person 12
+[2024-10-17 19:53:16] Loitering detected for person 13
+[2024-10-17 19:53:16] Loitering detected for person 14
+[2024-10-17 19:53:16] Loitering detected for person 24
+[2024-10-17 19:53:16] Loitering detected for person 40
+[2024-10-17 19:53:18] Loitering detected for person 4
+[2024-10-17 19:53:18] Loitering detected for person 7
+[2024-10-17 19:53:18] Loitering detected for person 12
+[2024-10-17 19:53:18] Loitering detected for person 14
+[2024-10-17 19:53:18] Loitering detected for person 40
+[2024-10-17 19:53:19] Loitering detected for person 4
+[2024-10-17 19:53:19] Loitering detected for person 7
+[2024-10-17 19:53:19] Loitering detected for person 12
+[2024-10-17 19:53:19] Loitering detected for person 14
+[2024-10-17 19:53:19] Loitering detected for person 40
+[2024-10-17 19:53:21] Loitering detected for person 8
+[2024-10-17 19:53:21] Loitering detected for person 12
+[2024-10-17 19:53:21] Loitering detected for person 14
+[2024-10-17 19:53:21] Loitering detected for person 40
+[2024-10-17 19:53:23] Loitering detected for person 12
+[2024-10-17 19:53:23] Loitering detected for person 14
+[2024-10-17 19:53:23] Loitering detected for person 40
+[2024-10-17 19:53:23] Loitering detected for person 49
+[2024-10-17 19:53:24] Loitering detected for person 11
+[2024-10-17 19:53:24] Loitering detected for person 12
+[2024-10-17 19:53:24] Loitering detected for person 14
+[2024-10-17 19:53:24] Loitering detected for person 28
+[2024-10-17 19:53:24] Loitering detected for person 34
+[2024-10-17 19:53:24] Loitering detected for person 40
+[2024-10-17 19:53:26] Loitering detected for person 11
+[2024-10-17 19:53:26] Loitering detected for person 12
+[2024-10-17 19:53:26] Loitering detected for person 14
+[2024-10-17 19:53:26] Loitering detected for person 28
+[2024-10-17 19:53:26] Loitering detected for person 40
+[2024-10-17 19:53:27] Loitering detected for person 11
+[2024-10-17 19:53:27] Loitering detected for person 12
+[2024-10-17 19:53:27] Loitering detected for person 14
+[2024-10-17 19:53:27] Loitering detected for person 28
+[2024-10-17 19:53:27] Loitering detected for person 40
+[2024-10-17 19:53:30] Loitering detected for person 3
+[2024-10-17 19:53:30] Loitering detected for person 11
+[2024-10-17 19:53:30] Loitering detected for person 12
+[2024-10-17 19:53:30] Loitering detected for person 14
+[2024-10-17 19:53:30] Loitering detected for person 28
+[2024-10-17 19:53:30] Loitering detected for person 40
+[2024-10-17 19:53:32] Loitering detected for person 3
+[2024-10-17 19:53:32] Loitering detected for person 4
+[2024-10-17 19:53:32] Loitering detected for person 11
+[2024-10-17 19:53:32] Loitering detected for person 12
+[2024-10-17 19:53:32] Loitering detected for person 14
+[2024-10-17 19:53:32] Loitering detected for person 28
+[2024-10-17 19:53:32] Loitering detected for person 3
+[2024-10-17 19:53:32] Loitering detected for person 11
+[2024-10-17 19:53:32] Loitering detected for person 14
+[2024-10-17 19:53:32] Loitering detected for person 28
+[2024-10-17 19:53:34] Loitering detected for person 3
+[2024-10-17 19:53:34] Loitering detected for person 11
+[2024-10-17 19:53:34] Loitering detected for person 14
+[2024-10-17 19:53:35] Loitering detected for person 1
+[2024-10-17 19:53:35] Loitering detected for person 3
+[2024-10-17 19:53:35] Loitering detected for person 5
+[2024-10-17 19:53:35] Loitering detected for person 11
+[2024-10-17 19:53:35] Loitering detected for person 14
+[2024-10-17 19:53:35] Loitering detected for person 47
+[2024-10-17 19:53:35] Loitering detected for person 49
+[2024-10-17 19:53:36] Loitering detected for person 3
+[2024-10-17 19:53:36] Loitering detected for person 11
+[2024-10-17 19:53:36] Loitering detected for person 14
+[2024-10-17 19:53:36] Loitering detected for person 47
+[2024-10-17 19:53:36] Loitering detected for person 49
+[2024-10-17 19:53:37] Loitering detected for person 3
+[2024-10-17 19:53:37] Loitering detected for person 11
+[2024-10-17 19:53:37] Loitering detected for person 14
+[2024-10-17 19:53:37] Loitering detected for person 25
+[2024-10-17 19:53:37] Loitering detected for person 47
+[2024-10-17 19:53:37] Loitering detected for person 49
+[2024-10-17 19:53:37] Loitering detected for person 56
+[2024-10-17 19:53:38] Loitering detected for person 3
+[2024-10-17 19:53:38] Loitering detected for person 11
+[2024-10-17 19:53:38] Loitering detected for person 14
+[2024-10-17 19:53:38] Loitering detected for person 47
+[2024-10-17 19:53:38] Loitering detected for person 56
+[2024-10-17 19:53:39] Loitering detected for person 3
+[2024-10-17 19:53:39] Loitering detected for person 11
+[2024-10-17 19:53:39] Loitering detected for person 14
+[2024-10-17 19:53:39] Loitering detected for person 47
+[2024-10-17 19:53:39] Loitering detected for person 56
+[2024-10-17 19:53:40] Loitering detected for person 3
+[2024-10-17 19:53:40] Loitering detected for person 11
+[2024-10-17 19:53:40] Loitering detected for person 14
+[2024-10-17 19:53:40] Loitering detected for person 56
+[2024-10-17 19:53:42] Loitering detected for person 3
+[2024-10-17 19:53:42] Loitering detected for person 11
+[2024-10-17 19:53:42] Loitering detected for person 14
+[2024-10-17 19:53:42] Loitering detected for person 56
+[2024-10-17 19:53:43] Loitering detected for person 3
+[2024-10-17 19:53:43] Loitering detected for person 4
+[2024-10-17 19:53:43] Loitering detected for person 11
+[2024-10-17 19:53:43] Loitering detected for person 12
+[2024-10-17 19:53:43] Loitering detected for person 14
+[2024-10-17 19:53:43] Loitering detected for person 56
+[2024-10-17 19:53:43] Loitering detected for person 60
+[2024-10-17 19:53:43] Loitering detected for person 3
+[2024-10-17 19:53:43] Loitering detected for person 12
+[2024-10-17 19:53:43] Loitering detected for person 14
+[2024-10-17 19:53:43] Loitering detected for person 56
+[2024-10-17 19:53:43] Loitering detected for person 60
+[2024-10-17 19:53:44] Loitering detected for person 3
+[2024-10-17 19:53:44] Loitering detected for person 12
+[2024-10-17 19:53:44] Loitering detected for person 14
+[2024-10-17 19:53:44] Loitering detected for person 28
+[2024-10-17 19:53:44] Loitering detected for person 56
+[2024-10-17 19:53:44] Loitering detected for person 60
+[2024-10-17 19:53:45] Loitering detected for person 3
+[2024-10-17 19:53:45] Loitering detected for person 12
+[2024-10-17 19:53:45] Loitering detected for person 14
+[2024-10-17 19:53:45] Loitering detected for person 28
+[2024-10-17 19:53:45] Loitering detected for person 56
+[2024-10-17 19:53:45] Loitering detected for person 60
+[2024-10-17 19:53:46] Loitering detected for person 3
+[2024-10-17 19:53:46] Loitering detected for person 12
+[2024-10-17 19:53:46] Loitering detected for person 14
+[2024-10-17 19:53:46] Loitering detected for person 28
+[2024-10-17 19:53:46] Loitering detected for person 56
+[2024-10-17 19:53:46] Loitering detected for person 60
+[2024-10-17 19:53:47] Loitering detected for person 3
+[2024-10-17 19:53:47] Loitering detected for person 14
+[2024-10-17 19:53:47] Loitering detected for person 56
+[2024-10-17 19:53:47] Loitering detected for person 60
+[2024-10-17 19:53:47] Loitering detected for person 3
+[2024-10-17 19:53:47] Loitering detected for person 14
+[2024-10-17 19:53:47] Loitering detected for person 56
+[2024-10-17 19:53:47] Loitering detected for person 60
+[2024-10-17 19:53:48] Loitering detected for person 14
+[2024-10-17 19:53:48] Loitering detected for person 56
+[2024-10-17 19:53:48] Loitering detected for person 60
+[2024-10-17 19:53:48] Loitering detected for person 14
+[2024-10-17 19:53:48] Loitering detected for person 56
+[2024-10-17 19:53:48] Loitering detected for person 60
+[2024-10-17 19:53:49] Loitering detected for person 14
+[2024-10-17 19:53:49] Loitering detected for person 56
+[2024-10-17 19:53:49] Loitering detected for person 60
+[2024-10-17 19:53:50] Loitering detected for person 14
+[2024-10-17 19:53:50] Loitering detected for person 60
+[2024-10-17 19:53:51] Loitering detected for person 14
+[2024-10-17 19:53:51] Loitering detected for person 47
+[2024-10-17 19:53:51] Loitering detected for person 60
+[2024-10-17 19:53:51] Loitering detected for person 14
+[2024-10-17 19:53:51] Loitering detected for person 47
+[2024-10-17 19:53:52] Loitering detected for person 14
+[2024-10-17 19:53:52] Loitering detected for person 47
+[2024-10-17 19:53:52] Loitering detected for person 67
+[2024-10-17 19:53:53] Loitering detected for person 14
+[2024-10-17 19:53:53] Loitering detected for person 47
+[2024-10-17 19:53:53] Loitering detected for person 67
+[2024-10-17 19:53:53] Loitering detected for person 14
+[2024-10-17 19:53:53] Loitering detected for person 47
+[2024-10-17 19:53:53] Loitering detected for person 67
+[2024-10-17 19:53:54] Loitering detected for person 14
+[2024-10-17 19:53:54] Loitering detected for person 47
+[2024-10-17 19:53:54] Loitering detected for person 67
+[2024-10-17 19:53:55] Loitering detected for person 14
+[2024-10-17 19:53:55] Loitering detected for person 47
+[2024-10-17 19:53:55] Loitering detected for person 67
+[2024-10-17 19:53:55] Loitering detected for person 14
+[2024-10-17 19:53:55] Loitering detected for person 47
+[2024-10-17 19:53:55] Loitering detected for person 67
+[2024-10-17 19:53:56] Loitering detected for person 14
+[2024-10-17 19:53:56] Loitering detected for person 67
+[2024-10-17 19:53:57] Loitering detected for person 14
+[2024-10-17 19:53:57] Loitering detected for person 67
+[2024-10-17 19:53:57] Loitering detected for person 14
+[2024-10-17 19:53:57] Loitering detected for person 67
+[2024-10-17 19:53:58] Loitering detected for person 3
+[2024-10-17 19:53:58] Loitering detected for person 14
+[2024-10-17 19:53:58] Loitering detected for person 67
+[2024-10-17 19:53:59] Loitering detected for person 3
+[2024-10-17 19:53:59] Loitering detected for person 14
+[2024-10-17 19:53:59] Loitering detected for person 67
+[2024-10-17 19:54:00] Loitering detected for person 3
+[2024-10-17 19:54:00] Loitering detected for person 14
+[2024-10-17 19:54:00] Loitering detected for person 67
+[2024-10-17 19:54:00] Loitering detected for person 14
+[2024-10-17 19:54:00] Loitering detected for person 67
+[2024-10-17 19:54:01] Loitering detected for person 14
+[2024-10-17 19:54:01] Loitering detected for person 67
+[00:00:00] Loitering detected for person 1
+[00:00:00] Loitering detected for person 3
+[00:00:00] Loitering detected for person 4
+[00:00:00] Loitering detected for person 7
+[00:00:00] Loitering detected for person 8
+[00:00:00] Loitering detected for person 10
+[00:00:00] Loitering detected for person 11
+[00:00:00] Loitering detected for person 13
+[00:00:00] Loitering detected for person 14
+[00:00:00] Loitering detected for person 15
+[00:00:00] Loitering detected for person 17
+[00:00:00] Loitering detected for person 18
+[00:00:00] Loitering detected for person 3
+[00:00:00] Loitering detected for person 4
+[00:00:00] Loitering detected for person 7
+[00:00:00] Loitering detected for person 10
+[00:00:00] Loitering detected for person 11
+[00:00:00] Loitering detected for person 13
+[00:00:00] Loitering detected for person 14
+[00:00:00] Loitering detected for person 15
+[00:00:00] Loitering detected for person 17
+[00:00:00] Loitering detected for person 18
+[00:00:00] Loitering detected for person 3
+[00:00:00] Loitering detected for person 7
+[00:00:00] Loitering detected for person 10
+[00:00:00] Loitering detected for person 11
+[00:00:00] Loitering detected for person 13
+[00:00:00] Loitering detected for person 14
+[00:00:00] Loitering detected for person 15
+[00:00:00] Loitering detected for person 3
+[00:00:00] Loitering detected for person 7
+[00:00:00] Loitering detected for person 10
+[00:00:00] Loitering detected for person 11
+[00:00:00] Loitering detected for person 13
+[00:00:00] Loitering detected for person 14
+[00:00:00] Loitering detected for person 15
+[00:00:00] Loitering detected for person 17
+[00:00:00] Loitering detected for person 18
+[00:00:00] Loitering detected for person 20
+[00:00:00] Loitering detected for person 3
+[00:00:00] Loitering detected for person 7
+[00:00:00] Loitering detected for person 10
+[00:00:00] Loitering detected for person 11
+[00:00:00] Loitering detected for person 13
+[00:00:00] Loitering detected for person 14
+[00:00:00] Loitering detected for person 15
+[00:00:00] Loitering detected for person 17
+[00:00:00] Loitering detected for person 18
+[00:00:00] Loitering detected for person 20
+[00:00:00] Loitering detected for person 3
+[00:00:00] Loitering detected for person 6
+[00:00:00] Loitering detected for person 7
+[00:00:00] Loitering detected for person 9
+[00:00:00] Loitering detected for person 10
+[00:00:00] Loitering detected for person 11
+[00:00:00] Loitering detected for person 13
+[00:00:00] Loitering detected for person 14
+[00:00:00] Loitering detected for person 15
+[00:00:00] Loitering detected for person 17
+[00:00:00] Loitering detected for person 20
+[00:00:00] Loitering detected for person 3
+[00:00:00] Loitering detected for person 6
+[00:00:00] Loitering detected for person 7
+[00:00:00] Loitering detected for person 10
+[00:00:00] Loitering detected for person 11
+[00:00:00] Loitering detected for person 13
+[00:00:00] Loitering detected for person 14
+[00:00:00] Loitering detected for person 15
+[00:00:00] Loitering detected for person 17
+[00:00:00] Loitering detected for person 20
+[00:00:00] Loitering detected for person 3
+[00:00:00] Loitering detected for person 7
+[00:00:00] Loitering detected for person 8
+[00:00:00] Loitering detected for person 11
+[00:00:00] Loitering detected for person 14
+[00:00:00] Loitering detected for person 15
+[00:00:00] Loitering detected for person 3
+[00:00:00] Loitering detected for person 8
+[00:00:00] Loitering detected for person 11
+[00:00:00] Loitering detected for person 14
+[00:00:00] Loitering detected for person 15
+[00:00:00] Loitering detected for person 17
+[00:00:00] Loitering detected for person 24
+[00:00:00] Loitering detected for person 3
+[00:00:00] Loitering detected for person 8
+[00:00:00] Loitering detected for person 11
+[00:00:00] Loitering detected for person 14
+[00:00:00] Loitering detected for person 15
+[00:00:00] Loitering detected for person 17
+[00:00:00] Loitering detected for person 24
+[00:00:00] Loitering detected for person 25
+[00:00:00] Loitering detected for person 3
+[00:00:00] Loitering detected for person 11
+[00:00:00] Loitering detected for person 14
+[00:00:00] Loitering detected for person 15
+[00:00:00] Loitering detected for person 17
+[00:00:00] Loitering detected for person 24
+[00:00:00] Loitering detected for person 25
+[00:00:00] Loitering detected for person 3
+[00:00:00] Loitering detected for person 11
+[00:00:00] Loitering detected for person 14
+[00:00:00] Loitering detected for person 15
+[00:00:00] Loitering detected for person 18
+[00:00:00] Loitering detected for person 24
+[00:00:00] Loitering detected for person 25
+[00:00:00] Loitering detected for person 28
+[00:00:00] Loitering detected for person 1
+[00:00:00] Loitering detected for person 3
+[00:00:00] Loitering detected for person 11
+[00:00:00] Loitering detected for person 14
+[00:00:00] Loitering detected for person 15
+[00:00:00] Loitering detected for person 18
+[00:00:00] Loitering detected for person 22
+[00:00:00] Loitering detected for person 24
+[00:00:00] Loitering detected for person 25
+[00:00:00] Loitering detected for person 28
+[00:00:00] Loitering detected for person 3
+[00:00:00] Loitering detected for person 6
+[00:00:00] Loitering detected for person 10
+[00:00:00] Loitering detected for person 11
+[00:00:00] Loitering detected for person 13
+[00:00:00] Loitering detected for person 14
+[00:00:00] Loitering detected for person 15
+[00:00:00] Loitering detected for person 18
+[00:00:00] Loitering detected for person 22
+[00:00:00] Loitering detected for person 24
+[00:00:00] Loitering detected for person 28
+[00:00:00] Loitering detected for person 3
+[00:00:00] Loitering detected for person 4
+[00:00:00] Loitering detected for person 6
+[00:00:00] Loitering detected for person 7
+[00:00:00] Loitering detected for person 10
+[00:00:00] Loitering detected for person 11
+[00:00:00] Loitering detected for person 13
+[00:00:00] Loitering detected for person 14
+[00:00:00] Loitering detected for person 15
+[00:00:00] Loitering detected for person 18
+[00:00:00] Loitering detected for person 22
+[00:00:00] Loitering detected for person 24
+[00:00:00] Loitering detected for person 28
+[00:00:00] Loitering detected for person 31
+[00:00:01] Loitering detected for person 3
+[00:00:01] Loitering detected for person 4
+[00:00:01] Loitering detected for person 10
+[00:00:01] Loitering detected for person 11
+[00:00:01] Loitering detected for person 13
+[00:00:01] Loitering detected for person 14
+[00:00:01] Loitering detected for person 15
+[00:00:01] Loitering detected for person 18
+[00:00:01] Loitering detected for person 24
+[00:00:01] Loitering detected for person 28
+[00:00:01] Loitering detected for person 31
+[00:00:01] Loitering detected for person 4
+[00:00:01] Loitering detected for person 10
+[00:00:01] Loitering detected for person 11
+[00:00:01] Loitering detected for person 13
+[00:00:01] Loitering detected for person 14
+[00:00:01] Loitering detected for person 15
+[00:00:01] Loitering detected for person 24
+[00:00:01] Loitering detected for person 28
