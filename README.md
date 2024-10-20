@@ -54,7 +54,7 @@ Replace .x with the specific Python version. If your python version is
 The original plan for this project was to have anomaly detection working on a live feed, but with the work that we have done so far, we realized that doing video stuff on our local machines is going to be annoying. We noticed that it was basically processing things at 1-2 frame per second (Macbook Pro m2 pro ), even with the smallest version of YOLO v10 (Yolo v10n) combined with DeepSort. The DeepSort is what really made the frames drop, as before that the framerate in the output view was essentially the same as the original video. We expect that trying to incorporate live feeds would be infeasible due to how long it takes just to process a prerecorded video (the delay would be too much)
 
 ## Methods
-
+We used ChatGPT to assist in creating small portions of the code and the test cases that we use to edit the program.
 
 ## License
 MIT License
