@@ -51,7 +51,6 @@ while cap.isOpened():
         ltrb = track.to_ltrb()
         track_id = track.track_id
         class_id = int(track.detection[4])
-        class_name = class_labels[class_id]
         # Note that opencv uses BGR not RGB
         if track.track_id in loitering_objects:
             cv2.rectangle(frame, (int(ltrb[0]), int(ltrb[1])), (int(ltrb[2]), int(ltrb[3])), (0, 0, 255), 2)

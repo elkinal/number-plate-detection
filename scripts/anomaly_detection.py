@@ -36,9 +36,14 @@ def detect_erratic_movement(tracks, track_histories, velocity_threshold=10):
     return erratic_objects
 
 def detect_unattended_objects(tracks, track_histories, people_tracks, stationary_threshold=150):
+    class_ids_that_are_objects = ['bag']
     unattended_objects = []
     for track in tracks:
-        if track.is_confirmed() and track.class_id == 'bag':  # Assuming YOLO detects "bag"
+        if track.is_confirmed() and track.class_id in class_ids_that_are_objects:  
+            # Can change this later to a LLM pipeline such as gemini that determines whether the detected classes can be classified as unattended objects,
+            # Or if they are something else, like a person or animal.
+            # But this would mean that there has to be essentially a two stage process
+            # In which we get all the possible track class_id's from the video clip, and then sort based on LLM which are unattended objects and which are not.
             track_id = track.track_id
             history = track_histories.get(track_id, [])
 

@@ -1,9 +1,6 @@
 from deep_sort_realtime.deepsort_tracker import DeepSort
 import numpy as np
 
-import numpy as np
-from deep_sort_realtime.deepsort_tracker import DeepSort
-
 class ObjectTracker:
     def __init__(self):
         self.tracker = DeepSort(max_age=30, n_init=3)
