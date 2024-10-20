@@ -12,8 +12,6 @@ This project is tested to be working with Python 3.11.5
 
 1. Clone the repo and navigate into the directory:
 
-git clone https://github.com/yourusername/AI-Practicum-Object-Detection.git
-cd AI-Practicum-Object-Detection
 
 2. Set up the Python environment:
 
