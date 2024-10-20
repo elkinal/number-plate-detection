@@ -17,27 +17,28 @@ cd AI-Practicum-Object-Detection
 
 2. Set up the Python environment:
 
-<<<<<<< Updated upstream
+
 ```python3 -m venv venv ```
 Then, 
 
 ``` source venv/bin/activate  # Linux/Mac ```
 
 ``` .\venv\Scripts\activate   # Windows ```
-=======
-python3 -m venv venv
-source venv/bin/activate  # Linux/Mac
-.\venv\Scripts\activate   # Windows
->>>>>>> Stashed changes
+
+
 
 3. Install dependencies:
 
 ``` pip install -r requirements.txt ```
 
 
-4. Run what we have so far (example script coming soon).
+4. Run what we have so far 
+ (Assuming you are in the root of project directory)
+ 
+```python scripts/main.py```
 
-python main.py
+Test script
+```python scripts/test_anomaly_detection.py```
 
 ## Notes
 If you get an SSL certificate verify error,
@@ -50,6 +51,6 @@ Replace .x with the specific Python version. If your python version is
 3.11.5, then the command would be 
 /Applications/Python\ 3.11/Install\ Certificates.command
 
->>>>>>> Stashed changes
+
 ## License
 MIT License
