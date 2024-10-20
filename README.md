@@ -56,5 +56,9 @@ The original plan for this project was to have anomaly detection working on a li
 ## Methods
 We used ChatGPT to assist in creating small portions of the code and the test cases that we use to edit the program.
 
+## Demo Script
+
+Edward: Demonstrate the anomaly_detection.py and the related test, showing that bounding boxes show up on the video output signifying various anomalies detected.
+
 ## License
 MIT License
