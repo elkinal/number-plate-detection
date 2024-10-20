@@ -58,10 +58,12 @@ We used ChatGPT to assist in creating small portions of the code and the test ca
 
 ## Demo Script
 
-Edward: Demonstrate the anomaly_detection.py and the related test, showing that there is an output. Run the command python anomaly_detection.py in the correct module.
+Edward: Demonstrate the anomaly_detection.py and the related test, showing that there is an output. Run the command python anomaly_detection.py in the correct directory.
 
 
 Ruji: To run the code, execute python reporting_module.py (if applicable), or alternatively, focus on testing by running pytest test_reporting_module.py. This will test event logging, alert notifications, and performance metrics (precision, recall, latency). The expected output should show all tests passing with real-time alerts, event logs, and metrics printed to the terminal.  
+
+Alexey: Demonstrate the main.py output view with the video feed, with bounding boxes. Run the commmand python main.py in the correct directory
 
 ## License
 MIT License
