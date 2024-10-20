@@ -59,6 +59,7 @@ We used ChatGPT to assist in creating small portions of the code and the test ca
 ## Demo Script
 
 Edward: Demonstrate the anomaly_detection.py and the related test, showing that bounding boxes show up on the video output signifying various anomalies detected.
+Ruji: To run the code, execute python reporting_module.py (if applicable), or alternatively, focus on testing by running pytest test_reporting_module.py. This will test event logging, alert notifications, and performance metrics (precision, recall, latency). The expected output should show all tests passing with real-time alerts, event logs, and metrics printed to the terminal.  
 
 ## License
 MIT License
