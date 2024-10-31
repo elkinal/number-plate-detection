@@ -8,65 +8,56 @@ yolo = YOLODetector("yolov10n.pt")
 tracker = ObjectTracker()
 
 # Open a file for logging detected anomalies
-log_file = open("anomaly_logs.txt", "w")
+with open("anomaly_logs.txt", "w") as log_file:
 
-# Load video
-cap = cv2.VideoCapture('../data/TownCentreTRIMMED.mp4')
-fps = cap.get(cv2.CAP_PROP_FPS)  # Get the frames per second of the video
-frame_number = 0
+    # Load video
+    cap = cv2.VideoCapture('../data/TownCentreTRIMMED.mp4')
+    fps = cap.get(cv2.CAP_PROP_FPS)  # Get the frames per second of the video
+    frame_number = 0
 
-while cap.isOpened():
-    ret, frame = cap.read()
-    if not ret:
-        break
+    while cap.isOpened():
+        ret, frame = cap.read()
+        if not ret:
+            break
 
-    frame_number += 1  # Increment the frame number for each frame
-    timestamp = frame_number / fps  # Calculate the timestamp in seconds
+        frame_number += 1  # Increment the frame number for each frame
+        timestamp = frame_number / fps  # Calculate the timestamp in seconds
 
-    # Object detection
-    detections = yolo.detect(frame)
+        # Object detection and tracking
+        detections = yolo.detect(frame)
+        tracks = tracker.track(detections, frame)
 
-    # Object tracking
-    tracks = tracker.track(detections, frame)
+        # Anomaly detection
+        loitering_objects = detect_loitering(tracks, tracker.track_histories)
+        erratic_objects = detect_erratic_movement(tracks, tracker.track_histories)
 
-    # Apply rule-based anomaly detection
-    loitering_objects = detect_loitering(tracks, tracker.track_histories)
-    erratic_objects = detect_erratic_movement(tracks, tracker.track_histories)
+        # Combined logging and drawing in a single loop
+        for track in tracks:
+            ltrb = track.to_ltrb()
+            track_id = track.track_id
+            color = (0, 255, 0)  # Default color: green
 
-    # Output and log any detections with timestamps
-    if loitering_objects:
-        for obj_id in loitering_objects:
-            log_message = f"Loitering detected for object {obj_id} at {timestamp:.2f} seconds\n"
-            print(log_message.strip())  # Print to console
-            log_file.write(log_message)  # Write to log file
+            # Log loitering and erratic movement once per object
+            if track_id in loitering_objects:
+                color = (0, 0, 255)  # Loitering: red
+                log_message = f"Loitering detected for object {track_id} at {timestamp:.2f} seconds\n"
+                print(log_message.strip())
+                log_file.write(log_message)
+            elif track_id in erratic_objects:
+                color = (255, 0, 0)  # Erratic movement: blue
+                log_message = f"Erratic movement detected for object {track_id} at {timestamp:.2f} seconds\n"
+                print(log_message.strip())
+                log_file.write(log_message)
 
-    if erratic_objects:
-        for obj_id in erratic_objects:
-            log_message = f"Erratic movement detected for object {obj_id} at {timestamp:.2f} seconds\n"
-            print(log_message.strip())  # Print to console
-            log_file.write(log_message)  # Write to log file
+            # Draw rectangles for all tracked objects
+            cv2.rectangle(frame, (int(ltrb[0]), int(ltrb[1])), (int(ltrb[2]), int(ltrb[3])), color, 2)
+            cv2.putText(frame, f'ID: {track_id}', (int(ltrb[0]), int(ltrb[1]) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 2)
 
-    # Visualization: Highlight loitering objects in red
-    for track in tracks:
-        ltrb = track.to_ltrb()
-        track_id = track.track_id
-        class_id = int(track.detection[4])
-        # Note that opencv uses BGR not RGB
-        if track.track_id in loitering_objects:
-            cv2.rectangle(frame, (int(ltrb[0]), int(ltrb[1])), (int(ltrb[2]), int(ltrb[3])), (0, 0, 255), 2)
-        elif track.track_id in erratic_objects:
-            cv2.rectangle(frame, (int(ltrb[0]), int(ltrb[1])), (int(ltrb[2]), int(ltrb[3])), (255, 0, 0), 2)
-        else:
-            cv2.rectangle(frame, (int(ltrb[0]), int(ltrb[1])), (int(ltrb[2]), int(ltrb[3])), (0, 255, 0), 2)
+        # Display the frame
+        cv2.imshow('YOLOv10 with DeepSORT Tracking and Anomaly Detection', frame)
 
-        cv2.putText(frame, f'ID: {track.track_id}', (int(ltrb[0]), int(ltrb[1]) - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+        if cv2.waitKey(25) & 0xFF == ord('q'):
+            break
 
-    # Display the frame with anomalies highlighted
-    cv2.imshow('YOLOv10 with DeepSORT Tracking and Anomaly Detection', frame)
-
-    if cv2.waitKey(25) & 0xFF == ord('q'):
-        break
-
-cap.release()
-log_file.close() 
-cv2.destroyAllWindows()
+    cap.release()
+    cv2.destroyAllWindows()
