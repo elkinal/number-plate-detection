@@ -7,11 +7,9 @@ class YOLODetector:
 
     def detect(self, frame):
         # Perform object detection
-        results = self.model(frame)
-        detections = []
-        for obj in results[0].boxes:
-            bbox = obj.xyxy[0].tolist()
-            confidence = obj.conf[0].tolist()
-            class_id = obj.cls[0].tolist()
-            detections.append((bbox, confidence, class_id))
+        results = self.model(frame)[0]  # Directly access the first result to reduce indexing
+        detections = [
+            (obj.xyxy[0].tolist(), obj.conf[0].item(), obj.cls[0].item())  # Extract bbox, confidence, class_id
+            for obj in results.boxes
+        ]
         return detections
