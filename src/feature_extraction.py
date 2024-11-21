@@ -36,4 +36,21 @@ def extract_features_from_images(image_paths, cell_size=(8, 8), block_size=(2, 2
         features.append(compute_hog(image, cell_size, block_size, nbins))
     return features
 
+def save_features(features, output_path):
+    """
+    Save extracted features to a file.
+    Args:
+        features (list): List of feature vectors.
+        output_path (str): Path to save the features.
+    """
+    np.save(output_path, np.array(features))
 
+def load_features(feature_file):
+    """
+    Load saved features from a file.
+    Args:
+        feature_file (str): Path to the saved feature file.
+    Returns:
+        numpy.ndarray: Loaded feature vectors.
+    """
+    return np.load(feature_file)
