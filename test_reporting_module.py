@@ -1,5 +1,5 @@
 import pytest
-from reporting_module import ReportingModule
+from src.reporting_module import ReportingModule
 from io import StringIO
 import sys
 
