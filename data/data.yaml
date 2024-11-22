@@ -1,5 +1,5 @@
 # Path to the dataset root
-path: /data
+path: data
 
 # Relative paths to training and validation images
 train: images/train
