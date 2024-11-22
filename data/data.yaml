@@ -1,0 +1,12 @@
+# Path to the dataset root
+path: /data
+
+# Relative paths to training and validation images
+train: images/train
+val: images/val
+
+# Number of classes
+nc: 1  # Number of classes (e.g., 'license plate')
+
+# Class names
+names: ['license_plate']
