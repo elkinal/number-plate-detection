@@ -2,6 +2,16 @@ import cv2
 from yolo_detection import YOLODetector
 from tracking import ObjectTracker
 from anomaly_detection import detect_loitering, detect_erratic_movement
+'''
+main.py serves as the entry point for video-based workflows. 
+our project focuses only on image recognition:
+we don’t need main.py unless we are analyzing video data.
+
+
+'''
+
+
+
 
 # Initialize YOLO detector and tracker
 yolo = YOLODetector("yolov10n.pt")
