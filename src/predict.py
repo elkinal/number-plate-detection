@@ -7,6 +7,7 @@ def load_model(model_path):
 
     return joblib.load(model_path)
 
+
 def preprocess_image_for_prediction(image_path, target_size, grayscale=True):
     """
     Preprocess a single image for prediction.
