@@ -48,3 +48,10 @@ def load_features(feature_file):
     Load saved features from a file.
     """
     return np.load(feature_file)
+
+def extract_plate_hog(image_path, cell_size=(8, 8), block_size=(2, 2), nbins=9):
+    """
+    Extract HOG features for cropped license plates.
+    """
+    image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+    return compute_hog(image, cell_size, block_size, nbins)

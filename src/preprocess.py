@@ -64,3 +64,8 @@ def preprocess_images_in_folder(input_folder, output_folder, target_size, graysc
         if os.path.isfile(input_path):
             preprocessed_image = preprocess_image(input_path, target_size, grayscale)
             save_preprocessed_image(preprocessed_image, output_path)
+def resize_image(image, target_size):
+    """
+    Resize an image to the target size.
+    """
+    return cv2.resize(image, target_size)
