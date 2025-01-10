@@ -1,94 +1,103 @@
-# AI Practicum: Trajectory Based Anomaly Detection
+# AI Practicum: Number Plate Detection
 
-This project involves building an object detection pipeline using YOLO and other deep learning models, processing real-time video feeds or video clips for object detection, then using the trajectories of detected objects, to perform trajectory based anomaly detection.
+This project involves developing an object detection pipeline using YOLO and other deep learning models. The system processes still images to detect number plates and classify them using a machine learning model.
 
-Currently the plan is rule-based systems at the trajectory based anomaly detection step but as the project evolves, we are going to use machine learning techniques in supervised and unsupervised learning.
-
-Libraries are used for the object detection, and obtaining the trajectories.
-
-
-## Demo Script
-
-### Overview:
-The demo will showcase the core components of the AI-Driven Event Detection project. Each team member will demonstrate a specific aspect of the pipeline using non-trivial test cases and outputs.
-
-#### What to Expect:
-1. **Preprocessing and YOLO-based Detection** (Alexey Elkin):  
-   - Prepares the dataset, splits it into training and test sets, and runs a YOLO model to detect and crop number plates.  
-   - Demonstrates a functional pipeline that identifies number plates from car images and saves them to the `/number_plates/` directory.  
-   - **Expected Output:** Visualized images with bounding boxes highlighting detected number plates, and correctly cropped images saved in the designated folder.
-
-2. **Feature Extraction and SVM Training** (Ruji Wang):  
-   - Extracts HOG features from the cropped images and trains an SVM model to classify the detected number plates.  
-   - Demonstrates feature vectors generated from the cropped plates and the SVM training process, showing the resulting accuracy on test data.  
-   - **Expected Output:** Logs showing feature vector sizes, training progress, and SVM evaluation metrics (e.g., accuracy, precision, recall).
-
-3. **Object Tracking with YOLO Integration** (Ruji Wang):  
-   - Integrates YOLO detections with the tracking module to maintain consistent IDs for objects across frames in a video.  
-   - Demonstrates tracked objects with positional histories.  
-   - **Expected Output:** Tracked object IDs and their positions visualized frame-by-frame.
+Initially, the project focused on rule-based detection, but it now incorporates supervised machine learning techniques for classification. Libraries are utilized for object detection and data processing.
 
 ---
 
+## Demo Script
+
+### Overview
+The demo will showcase the core components of the AI-Driven Number Plate Detection project. Each team member will demonstrate a specific aspect of the pipeline using non-trivial test cases and outputs.
+
+### Agenda
+
+1. **Preprocessing and YOLO-based Detection** (Alexey Elkin):
+   - Prepares the dataset, splits it into training and testing sets, and runs a YOLO model to detect and crop number plates.
+   - Demonstrates a functional pipeline that identifies number plates from car images and saves them to the `/number_plates/` directory.
+   - **Expected Output:** Visualized images with bounding boxes highlighting detected number plates, along with correctly cropped images saved in the designated folder.
+
+2. **Feature Extraction and SVM Training** (Ruji Wang):
+   - Extracts HOG features from cropped images and trains an SVM model to classify the detected number plates.
+   - Demonstrates feature vector generation and the SVM training process, showing evaluation metrics on test data.
+   - **Expected Output:** Logs showing feature vector sizes, training progress, and SVM evaluation metrics (e.g., accuracy, precision, recall).
+
+3. **Output Visualization** (Edward):
+   - Runs the output visualization module to display processed images with bounding boxes and classification results.
+   - **Expected Output:** Visualized images with bounding boxes and classifications shown.
+
+---
 
 ## Setup Instructions
 
-This project is tested to be working with Python 3.11.5
+This project is tested with Python 3.11.5.
 
-1. Clone the repo and navigate into the directory:
+### Steps:
 
+1. Clone the repository and navigate into the project directory:
+   ```bash
+   git clone <repo_url>
+   cd <repo_name>
+   ```
 
-2. Set up the Python environment:
-
-
-```python3 -m venv venv ```
-Then, 
-
-``` source venv/bin/activate  # Linux/Mac ```
-
-``` .\venv\Scripts\activate   # Windows ```
-
-
+2. Set up a Python virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   .\venv\Scripts\activate   # Windows
+   ```
 
 3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-``` pip install -r requirements.txt ```
+4. Run the project:
+   ```bash
+   python scripts/main.py
+   ```
 
+5. Test the classification module:
+   ```bash
+   python scripts/test_classification.py
+   ```
 
-4. Run what we have so far 
- (Assuming you are in the root of project directory)
- 
-```python scripts/main.py```
-
-Test script
-```python scripts/test_anomaly_detection.py```
-
-## Notes
-If you get an SSL certificate verify error,
-You may need to manually install SSL certificates in order to ensure Python can validate them.
-
-Open a terminal and run 
+### Note
+If you encounter an SSL certificate verification error, you may need to manually install SSL certificates. For macOS, run:
+```bash
 /Applications/Python\ 3.x/Install\ Certificates.command
+```
+Replace `3.x` with your Python version (e.g., `3.11`).
 
-Replace .x with the specific Python version. If your python version is 
-3.11.5, then the command would be 
-/Applications/Python\ 3.11/Install\ Certificates.command
+---
 
-## Extra Information
+## Performance Considerations
 
-The original plan for this project was to have anomaly detection working on a live feed, but with the work that we have done so far, we realized that doing video stuff on our local machines is going to be annoying. We noticed that it was basically processing things at 1-2 frame per second (Macbook Pro m2 pro ), even with the smallest version of YOLO v10 (Yolo v10n) combined with DeepSort. The DeepSort is what really made the frames drop, as before that the framerate in the output view was essentially the same as the original video. We expect that trying to incorporate live feeds would be infeasible due to how long it takes just to process a prerecorded video (the delay would be too much)
+The system processes still images instead of real-time video due to performance limitations. By focusing on batch processing, we ensure efficient and accurate detection and classification.
 
-## Methods
-We used ChatGPT to assist in creating small portions of the code and the test cases that we use to edit the program.
+---
 
-## Demo Script
+## Demo Roles
 
-Edward: Demonstrate the anomaly_detection.py and the related test, showing that there is an output. Run the command python anomaly_detection.py in the correct directory.
+- **Edward:** Demonstrates the `output_visualization.py` script, showing processed images with bounding boxes and classification results. Runs:
+  ```bash
+  python output_visualization.py
+  ```
 
+- **Ruji Wang:** Runs the `classification_module.py` script or `pytest` to validate the classification model. Expected output includes logs of feature vectors, training progress, and test results:
+  ```bash
+  python classification_module.py
+  pytest test_classification.py
+  ```
 
-Ruji: To run the code, execute python reporting_module.py, or alternatively, run pytest test_reporting_module.py. This will test event logging, alert notifications, and performance metrics (precision, recall, latency). The expected output should show all tests passing with real-time alerts, event logs, and metrics printed to the terminal.  
+- **Alexey Elkin:** Demonstrates the `main.py` script output, showing processed images with bounding boxes around detected number plates:
+  ```bash
+  python main.py
+  ```
 
-Alexey: Demonstrate the main.py output view with the video feed, with bounding boxes. Run the commmand python main.py in the correct directory
+---
 
 ## License
-MIT License
+
+This project is licensed under the MIT License.
