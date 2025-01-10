@@ -29,6 +29,24 @@ The demo will showcase the core components of the AI-Driven Number Plate Detecti
 
 ---
 
+## Sample Images
+
+Here are two sample images showcasing the number plate detection pipeline:
+
+1. **Original Image with Bounding Boxes:**
+
+   ![Sample Image 1](number_plate_1.png)
+
+   This image highlights the detected number plates with bounding boxes drawn around them.
+
+2. **Cropped Number Plate:**
+
+   ![Sample Image 2](number_plate_2.png)
+
+   This image shows a cropped version of a detected number plate, ready for feature extraction and classification.
+
+---
+
 ## Setup Instructions
 
 This project is tested with Python 3.11.5.
